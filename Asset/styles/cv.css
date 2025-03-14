@@ -1,0 +1,41 @@
+/*Reset du user agent*/
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    box-sizing:border-box; /*Pour que le contenu ne depasse pas le contenant*/
+} 
+
+.container {
+    width:80%;
+    height:auto;
+    margin:0 auto;
+    border:2px solid blue;
+}
+
+section{
+    width:100%;
+    height:200px;
+    border:1px solid orange;
+}
+
+
+/*MOBILE*/
+@media screen and (max-width: 768px) {
+    .portrait{
+        width:100px;
+        border-radius:50%;
+    }
+}
+
+
+
+/*LAPTOP*/
+
+@media screen and (min-width: 769px) {
+.portrait{
+    width:250px;
+    border-radius:50%;
+}
+}
