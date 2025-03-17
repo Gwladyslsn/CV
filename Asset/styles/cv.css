@@ -1,41 +1,115 @@
 /*Reset du user agent*/
-
 *{
     margin:0;
     padding:0;
     text-decoration:none;
     box-sizing:border-box; /*Pour que le contenu ne depasse pas le contenant*/
+    list-style: none;
+    font-family:Roboto;
 } 
 
-.container {
-    width:80%;
-    height:auto;
-    margin:0 auto;
-    border:2px solid blue;
-}
 
 section{
     width:100%;
     height:200px;
-    border:1px solid orange;
+    margin-top:10%;
 }
+.container {
+    width:80%;
+    height:auto;
+    margin:0 auto;
+}
+
+header{
+    display:flex;
+    flex-direction:column;
+}
+
+.portrait {
+    width:100%;
+    display:flex;
+
+}
+
+.portrait img{
+    border-radius:50%;
+    margin:0 auto;
+    width:20%;
+    margin-top:1%;
+}
+.nameProfil h2{
+    text-align:center;
+    margin-top:2%;
+}
+.titleProfil h1{
+    text-align:center;
+}
+
+.menuNav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:2%;
+}
+
+.menuNav a{
+    color:black;
+}
+
+.menuNav a:hover{
+    color:blue;
+}
+
+#langages h2 {
+    text-align:center;
+}
+
+#diplomes {
+    display:flex;
+    flex-direction:column;
+}
+#diplomes h2 {
+    text-align:center;
+}
+.diplome{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:30%;
+}
+
+#experiences {
+    display:flex;
+    flex-direction:column;
+}
+#experiences h2 {
+    text-align:center;
+}
+.experience{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:30%;
+}
+
+
+
+
+
+
 
 
 /*MOBILE*/
 @media screen and (max-width: 768px) {
-    .portrait{
-        width:100px;
-        border-radius:50%;
-    }
+
+
 }
 
 
 
 /*LAPTOP*/
-
 @media screen and (min-width: 769px) {
-.portrait{
-    width:250px;
-    border-radius:50%;
-}
+   
 }

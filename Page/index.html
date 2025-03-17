@@ -4,38 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Asset/styles/cv.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title> Mon CV en HTML & CSS </title>
 </head>
 <body>
+    <header>
+        
+        <nav>
+            <ul class="menuNav">
+                <li><a href="#langages">Langages</a></li>
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="#diplomes">Diplômes</a></li>
+                <li><a href="#projets">Projets</a></li>
+            </ul>
+        </nav>
+        <div class="portrait">
+            <img src="../Asset/images/portrait.jpg" alt="Illustration représentant Gwladys">
+        </div>
+        <div class="nameProfil">
+            <h2>Gwladys Laisné</h2>
+        </div>
+        <div class="titleProfil">
+            <h1>Developer</h1>
+        </div>
+    </header>
     <main class="container">
-        <header>
-            <div>
-                <img src="../Asset/images/portrait.jpg" alt="Illustration représentant Gwladys" class="portrait">
+        <section id="langages">
+            <h2>Langages</h2>
+            <!--<div class="iconLangage">
+                <img src="../Asset/images/html.png" alt="icone HTML">
             </div>
-            <div>
-                <h2>Gwladys Laisné</h2>
+            -->
+        </section>
+        <section id="experiences">
+            <h2>Expériences</h2>
+            <div class="experience">
+                <div class="year">2019 - 2024</div>
+                <div class="title">Business Developer IBM</div>
+                <div class="enterprise">Arrow ECS </div>
             </div>
-            <div>
-                <h1>Developer</h1>
+            <div class="experience">
+                <div class="year">2017 - 2022</div>
+                <div class="title">Chargée de formation</div>
+                <div class="enterprise">McDonald's Paris Sud</div>
             </div>
-            <nav>
-                <ul>
-                    <li>Langage</li>
-                    <li>Experience</li>
-                    <li>Diplôme</li>
-                </ul>
-            </nav>
-        </header>
-        <section id="langage">
+            <div class="experience">
+                <div class="year">05/2019 - 07/2019 </div>
+                <div class="title">Assistante Marketing</div>
+                <div class="title">Lys Conseil</div>
+            </div>
 
         </section>
-        <section id="experience">
-
+        <section id="diplomes">
+            <h2>Diplômes</h2>
+            <div class="diplome">
+                <div class="year">2024 - En cours</div>
+                <div class="title">Graduate Developpeur WWM</div>
+            </div>
+            <div class="diplome">
+                <div class="year">2019 - 2021</div>
+                <div class="title">Master Ingenierie d'affaires</div>
+            </div>
+            <div class="diplome">
+                <div class="year">2018 - 2019</div>
+                <div class="title">Bachelor Marketing & vente</div>
+            </div>
+            <div class="diplome">
+                <div class="year">2015 - 2017</div>
+                <div class="title">BTS Commerce International</div>
+            </div>
         </section>
-        <section id="diplome">
+        <section id="projets">
 
         </section>
 
     </main>
+    <footer>
+        <!--Icone reseaux sociaux
+            copyright
+            mentions legales
+        -->
+    </footer>
 </body>
 </html>
