@@ -37,7 +37,6 @@ header{
 .portrait {
     width:100%;
     display:flex;
-
 }
 
 .portrait img{
@@ -64,8 +63,10 @@ header{
 section{
     width:100%;
     height:200px;
-    margin-top:10%;
+    margin-top:15%;
 }
+
+
 
 #langages h2 {
     text-align:center;
@@ -74,7 +75,6 @@ section{
 .langages{
     width:100%;
     display:flex;
-    flex-wrap:wrap;
 }
 
 figure{
@@ -82,10 +82,12 @@ figure{
     display:flex;
     flex-direction:column;
     align-items:center;
+    gap:5px;
+    margin-right:3px;
 }
 
 figure img{
-    width:70%;
+    width:50%;
     padding: 8px;
 }
 
@@ -99,9 +101,14 @@ figure img{
 .emploi{
     width:100%;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
     height:30%;
+}
+
+.emploi p{
+    flex: 1; /* Permet à chaque élément de prendre un espace égal */
+    text-align: center; 
 }
 
 #diplomes {
@@ -114,9 +121,18 @@ figure img{
 .diplome{
     width:100%;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
     height:30%;
+}
+
+.diplome p{
+    flex: 1; 
+    text-align: center; 
+}
+
+#projets h2{
+    text-align:center;
 }
 
 
