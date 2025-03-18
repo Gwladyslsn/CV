@@ -6,4 +6,4 @@ Création de notre CV en HTML et CSS
 ajouter une image / photo qui nous représente. 
 
 live : 17/03 : ajouter une navbar clicable 
-Pour le 18/03 essayer de faire à notre façon 
+live 18/03 : Faire page mentions légales

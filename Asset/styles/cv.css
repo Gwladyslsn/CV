@@ -8,21 +8,30 @@
     font-family:Roboto;
 } 
 
+/*General*/
+/*mettre couleur sympa en fond*/
 
-section{
-    width:100%;
-    height:200px;
-    margin-top:10%;
-}
-.container {
-    width:80%;
-    height:auto;
-    margin:0 auto;
-}
-
+/*HEADER*/
 header{
     display:flex;
     flex-direction:column;
+    position:fixed;
+    width:100%;
+    background-color:#f4f4f4;
+}
+.menuNav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:2%;
+}
+
+.menuNav a{
+    color:black;
+}
+
+.menuNav a:hover{
+    color:blue;
 }
 
 .portrait {
@@ -45,23 +54,54 @@ header{
     text-align:center;
 }
 
-.menuNav{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    margin-top:2%;
+/*MAIN*/
+.container {
+    width:80%;
+    height:auto;
+    margin:0 auto;
+    padding-top:35%;
 }
-
-.menuNav a{
-    color:black;
-}
-
-.menuNav a:hover{
-    color:blue;
+section{
+    width:100%;
+    height:200px;
+    margin-top:10%;
 }
 
 #langages h2 {
     text-align:center;
+}
+
+.langages{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+figure{
+    width:33%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+figure img{
+    width:70%;
+    padding: 8px;
+}
+
+#experiences {
+    display:flex;
+    flex-direction:column;
+}
+#experiences h2 {
+    text-align:center;
+}
+.emploi{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:30%;
 }
 
 #diplomes {
@@ -79,19 +119,17 @@ header{
     height:30%;
 }
 
-#experiences {
-    display:flex;
-    flex-direction:column;
-}
-#experiences h2 {
-    text-align:center;
-}
-.experience{
-    width:100%;
+
+/*FOOTER*/
+.sociaux{
     display:flex;
     justify-content:space-around;
     align-items:center;
-    height:30%;
+    font-size:40px;
+}
+
+.fa-linkedin{
+    color:rgb(0,110,255)
 }
 
 

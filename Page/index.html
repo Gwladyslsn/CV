@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Asset/styles/cv.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0016861b14.js" crossorigin="anonymous"></script>
     <title> Mon CV en HTML & CSS </title>
 </head>
 <body>
@@ -28,30 +29,52 @@
             <h1>Developer</h1>
         </div>
     </header>
+
     <main class="container">
-        <section id="langages">
-            <h2>Langages</h2>
-            <!--<div class="iconLangage">
-                <img src="../Asset/images/html.png" alt="icone HTML">
+        <div class="sectionTitle">
+            <h3>Skills</h3>
             </div>
-            -->
-        </section>
+            <div class="langages">
+            <figure>
+                <img src="../Asset/images/html.webp" alt="Logo HTML">
+                <figcaption>
+                    <h6>HTML</h6>
+                    <p>Langage de balisage utilisé pour structurer le contenu des pages web.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="../Asset/images/css.webp" alt="Logo CSS">
+                <figcaption>
+                    <h6>CSS</h6>
+                    <p>Langage qui permet de styliser et de mettre en forme les pages web.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="../Asset/images/javascript.png" alt="Logo Javascript">
+                <figcaption>
+                    <h6>Javascript</h6>
+                    <p>Langage de programmation qui permet de rendre les pages web interactives et dynamiques.</p>
+                </figcaption>
+            </figure>
+            </div>
         <section id="experiences">
-            <h2>Expériences</h2>
-            <div class="experience">
-                <div class="year">2019 - 2024</div>
-                <div class="title">Business Developer IBM</div>
-                <div class="enterprise">Arrow ECS </div>
+            <div class="sectionTitle">
+                <h2>Experiences</h2>
             </div>
-            <div class="experience">
-                <div class="year">2017 - 2022</div>
-                <div class="title">Chargée de formation</div>
-                <div class="enterprise">McDonald's Paris Sud</div>
+            <div class="emploi">
+                <h5>Business Developer IBM</h5>
+                <h6>2019 - 2024</h6>
+                <p>Arrow ECS</p>
             </div>
-            <div class="experience">
-                <div class="year">05/2019 - 07/2019 </div>
-                <div class="title">Assistante Marketing</div>
-                <div class="title">Lys Conseil</div>
+            <div class="emploi">
+                <h5>Chargée de formation</h5>
+                <h6>2017 - 2022</h6>
+                <p>McDonald's Paris Sud</p>
+            </div>
+            <div class="emploi">
+                <h5>Assistante Marketing</h5>
+                <h6>05/2019 - 07/2019</h6>
+                <p>Lys Conseil</p>
             </div>
 
         </section>
@@ -80,10 +103,13 @@
 
     </main>
     <footer>
-        <!--Icone reseaux sociaux
-            copyright
-            mentions legales
-        -->
+        <div class="sociaux">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <div class="copyright">
+            <p>&#169;Gwladys Laisné | Tous droits réservés</p>
+        </div>
     </footer>
 </body>
 </html>
