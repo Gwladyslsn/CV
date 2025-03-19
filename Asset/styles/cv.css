@@ -65,31 +65,11 @@ header{
 }
 section{
     width:100%;
-    height:200px;
     margin-bottom:10%;
 }
 
-#langages h2 {
-    text-align:center;
-}
-
-.langages{
-    width:100%;
-    display:flex;
-}
-
-figure{
-    width:33%;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:5px;
-    margin-right:3px;
-}
-
-figure img{
-    width:50%;
-    padding: 8px;
+.sectionTitle{
+    margin:2%;
 }
 
 #experiences {
@@ -132,9 +112,54 @@ figure img{
     text-align: center; 
 }
 
+
+#competences h2 {
+    text-align:center;
+}
+
+h3{
+    margin-right:5px;
+}
+
+
+.langages{
+    width:100%;
+    display:flex;
+    margin-bottom:8%;
+    align-items: baseline;
+}
+
+.env{
+    width:100%;
+    display:flex;
+    align-items: baseline;
+}
+
+figure{
+    width:33%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:5px;
+    margin-right:10px;
+}
+
+figure img{
+    width:50%;
+    padding: 8px;
+}
+
+
+#projets {
+    display:flex;
+    flex-direction:column;
+}
+
 #projets h2{
     text-align:center;
 }
+
+
 
 
 /*FOOTER*/
@@ -148,6 +173,10 @@ figure img{
 
 .fa-linkedin{
     color:rgb(8, 69, 150)
+}
+
+.fa-github{
+    color:black;
 }
 
 .copyright{
