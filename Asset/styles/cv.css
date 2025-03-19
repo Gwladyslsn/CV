@@ -159,6 +159,11 @@ figure img{
     text-align:center;
 }
 
+.card{
+    width:50%;
+    z-index:-1;
+}
+
 
 
 
