@@ -12,3 +12,7 @@ faire notre propre structure : ok
 ajouter des couleurs : ok
 
 + ajout lien RS
+
+200325 : 
+- Recherche sur les metadonnées de la page mentions legales 
+meta OG ? 
